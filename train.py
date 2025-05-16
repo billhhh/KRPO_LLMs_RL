@@ -268,7 +268,7 @@ def main():
     dataset_path = "data/MathTasks/MathTasks_train.jsonl"
     data_predicate = lambda x: len(x["question"]) < 128 and x["num_terms"] <= 5 and x["num_digits"] <= 5
 
-    wandb_project = "tiny_grpo"
+    wandb_project = "krpo"
     model_name = "../../data/meta-llama/Llama-3.2-1B-Instruct"
 
     checkpoint_path = Path("./output/" + args.save_name)
