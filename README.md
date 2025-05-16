@@ -49,6 +49,4 @@ bash eval.sh 0
 
 ## Acknowledgement
 
-If you got a chance to use our code, you could consider to cite us!
-
 Enjoy!!
