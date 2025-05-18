@@ -47,6 +47,10 @@ For example:
 bash eval.sh 0
 ```
 
+In both train.py and eval.py, group_advantages_baseline() function is how the baseline model gets group advantages.
+
 ## Acknowledgement
+
+If you got a chance to use our code, you can cite us!
 
 Enjoy!!
