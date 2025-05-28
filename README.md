@@ -1,6 +1,6 @@
 # Kalman Filter Enhanced Group Relative Policy Optimization for Language Model Reasoning
 
-The code repository for paper "Kalman Filter Enhanced Group Relative Policy Optimization for Language Model Reasoning"
+The code repository for paper "Kalman Filter Enhanced Group Relative Policy Optimization for Language Model Reasoning".
 
 ## Environment Setup
 ### Create conda env
@@ -17,6 +17,8 @@ conda install -c conda-forge cudatoolkit cudatoolkit-dev -y
 pip install -r requirements.txt
 pip install flash-attn --no-build-isolation
 ```
+
+The base model is `Llama-3.2-1B-Instruct`, please follow the huggingface to fetch the model https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct
 
 ## Model training and evaluation
 ### Model training
