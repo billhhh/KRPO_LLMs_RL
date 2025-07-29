@@ -52,9 +52,7 @@ bash eval.sh 0
 In both train.py and eval.py, group_advantages_baseline() function is how the baseline model gets group advantages.
 
 
-### Updates
-
------------------------------------- 29/Jul/2025 ------------------------------------
+### Additional Base models and Data
 
 Performed more experiments with base models Qwen2.5-0.5B-Instruct and Qwen2.5-1.5B-Instruct on Normal level difficulty Arithmetic questions:
 
