@@ -25,6 +25,10 @@ import platform
 import time
 
 
+# baseline = True
+baseline = False
+
+
 def load_model(
     model_name_or_path: str,
     trust_remote_code: bool = False,
@@ -349,7 +353,10 @@ def main():
                     rollout_returns.append(returns.cpu())
 
                     # get advantages via group policy
-                    advantages = group_advantages(returns, process_var=process_var, meas_var=meas_var)
+                    if baseline:
+                        advantages = group_advantages_baseline(returns)
+                    else:
+                        advantages = group_advantages(returns, process_var=process_var, meas_var=meas_var)
                     attention_mask = sequence_ids != pad_token_id
 
                     log_probs = sequences_log_probs(
