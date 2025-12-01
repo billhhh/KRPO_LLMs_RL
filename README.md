@@ -19,6 +19,7 @@ pip install flash-attn --no-build-isolation
 ```
 
 The base model is `Llama-3.2-1B-Instruct`, please follow the huggingface to fetch the model https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct
+You can also change it to `Llama-3.2-3B-Instruct`, `Qwen2.5-1.5B-Instruct`, `Qwen2.5-0.5B-Instruct` or any other base models as you like to confirm our findings.
 
 ## Model training and evaluation
 ### Model training
