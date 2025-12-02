@@ -51,6 +51,7 @@ bash eval.sh 0
 ```
 
 In both train.py and eval.py, group_advantages_baseline() function is how the baseline model gets group advantages.
+Togged the baseline=True or False in the training script.
 
 
 ### Additional Base models and Data
